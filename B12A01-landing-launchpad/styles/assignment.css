@@ -13,12 +13,27 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    align-items: center;
+}
+body{
+    background-color: rgb(245, 248, 255);
 }
 li{
     list-style: none;
 }
 a{
     text-decoration: none;
+}
+
+/* Shared item */
+button{
+  padding: 12px 36px;
+  font-size: 16px;
+  font-weight: bold;
+  color :white;
+  background-color: #4E47FF;
+  border: none;
+  border-radius: 10px;
 }
 
 /* header style */
@@ -40,14 +55,7 @@ nav .logo{
     color:#4E47FF;
     font-weight: 900px;
 }
-nav button{
-    color:#FFFFFF;
-    background-color: #4E47FF;
-    width:132px;
-    border: none;
-    border-radius: 10px;
-    font-size: 16px;
-}
+
 /* banner design */
 .banner{
     text-align: center;
@@ -57,12 +65,29 @@ nav button{
     font-weight: bold;
     margin-bottom: 37px;
 }
-.banner button{
-  padding: 12px 36px;
-  font-size: 16px;
-  font-weight: bold;
-  color :white;
-  background-color: #4E47FF;
-  border: none;
-  border-radius: 10px;
+
+/* main */
+/* slide */
+.slide{
+    display:flex;
+    margin:116px auto;
+    border-radius: 30px;
+    width: 1140px;
+    justify-content: space-between;
+}
+.slide .title{
+        font-size: 42px;
+        font-weight: bold;
+        color:#252432;
+
+}
+.slide .slide-des{
+      font-size: 24px;
+      font-weight: 200;
+      color:#8C8E98;
+      margin: 23px auto;
+}
+.slide img{
+    border-radius: 30px;
+    
 }
