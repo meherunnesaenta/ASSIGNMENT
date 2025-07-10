@@ -1,0 +1,68 @@
+/* universal design  */
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.raleway-regular {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* header style */
+
+header{
+    background-image: url('../Assets/Hero-bg.png');
+    height: 698px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width:1140px;
+    margin: auto;
+    padding: 50px 0px;
+    margin-bottom: 158px;
+}
+nav .logo{
+    font-size: 34px;
+    color:#4E47FF;
+    font-weight: 900px;
+}
+nav button{
+    color:#FFFFFF;
+    background-color: #4E47FF;
+    width:132px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+/* banner design */
+.banner{
+    text-align: center;
+}
+.banner-content{
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 37px;
+}
+.banner button{
+  padding: 12px 36px;
+  font-size: 16px;
+  font-weight: bold;
+  color :white;
+  background-color: #4E47FF;
+  border: none;
+  border-radius: 10px;
+}
