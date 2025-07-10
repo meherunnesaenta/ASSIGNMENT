@@ -91,3 +91,37 @@ nav .logo{
     border-radius: 30px;
     
 }
+
+/* user section */
+.user-section{
+    width:1140px;
+    height: 306px;
+    text-align: center;
+    background-color:rgb(218, 227, 255);
+    border-radius: 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user-title{
+    font-size: 38px;
+    font-weight: bold;
+    color:#252432;
+
+}
+.users-action{
+    display: flex;
+    gap:158px;
+    margin: 30px;
+}
+.users h2{
+     font-size: 80px;
+    font-weight: bold;
+    color:#4E47FF;
+}
+.users p{
+    font-size: 20px;
+    color:#8C8E98;
+
+}
