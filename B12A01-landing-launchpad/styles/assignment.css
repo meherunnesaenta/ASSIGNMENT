@@ -36,6 +36,11 @@ button{
   border-radius: 10px;
 }
 
+/* button hover */
+button:hover{
+    background-color: #8C8E98;
+    cursor: pointer;
+}
 /* header style */
 
 header{
