@@ -125,3 +125,45 @@ nav .logo{
     color:#8C8E98;
 
 }
+
+/* review design */
+.review{
+    width:1140px;
+    margin: 137px auto;
+    text-align: center;
+}
+.review h3{
+    font-size: 42px;
+
+}
+.box-cotainer{
+    text-align: left;
+    margin-top: 50px;
+    display: flex;;
+    padding: 12px;
+    justify-content: space-between;
+    line-height: 24px;
+}
+.box{
+    background-color: #fff;
+    padding: 12px;
+    border-radius: 10px;
+    width: 350px;
+}
+.box .image , .box .review-des{
+    padding: 12px;
+}
+
+.profile{
+    display: flex;
+    padding: 12px;
+    gap: 15px;
+}
+.profile .name{
+      font-weight: bold;
+      color:#8C8E98;
+}
+.profile .date{
+    font-weight: 200;
+    color: #8C8E98;
+}
