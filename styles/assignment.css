@@ -221,12 +221,14 @@ footer .container{
 }
 a{
     text-decoration: none;
-     margin: 10px;
+     padding: 10px;
      color: #8C8E98;
+     border-radius: 10px;
+     
 }
 
 /* button hover */
-button:hover ,.submit:hover{
+button:hover ,.submit:hover , a:hover{
     background-color: white;
     color: #252432;
     cursor: pointer;
