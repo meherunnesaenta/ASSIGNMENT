@@ -21,10 +21,6 @@ body{
 li{
     list-style: none;
 }
-a{
-    text-decoration: none;
-}
-
 /* Shared item */
 button{
   padding: 12px 36px;
@@ -36,11 +32,7 @@ button{
   border-radius: 10px;
 }
 
-/* button hover */
-button:hover{
-    background-color: #8C8E98;
-    cursor: pointer;
-}
+
 /* header style */
 
 header{
@@ -171,4 +163,73 @@ nav .logo{
 .profile .date{
     font-weight: 200;
     color: #8C8E98;
+}
+/* form  */
+.form{
+    display:flex;
+    width: 1140px;
+    height: 632px;
+    margin: auto;
+
+}
+.form h2{
+    font-size: 97px;
+    font-weight: bold;
+}
+.form-action{
+   width:497px;
+   height: 490px;
+}
+.input{
+    display: block;
+    border:1px solid rgb(217, 201, 201);
+    border-radius: 5px;
+    padding: 20px;
+    width: 497px;
+}
+.submit{
+    display: block;
+    width: 497px;
+    padding:20px;
+    color:white;
+    background-color: rgb(78, 71, 255);
+    border: none;
+    border-radius: 10px;
+}
+footer{
+    height: 428px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .container{
+    width: 531px;
+    height: 221px;
+    color: #8987A1;
+}
+.container h2{
+      font-size: 100px;
+      color:#4E47FF;
+      font-weight: bold;
+}
+.point ul {
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+     margin: 10px;
+     color: #8C8E98;
+}
+
+/* button hover */
+button:hover ,.submit:hover{
+    background-color: white;
+    color: #252432;
+    cursor: pointer;
+    transition: 0.4s;
+    border: 2px solid #4E47FF;
 }
